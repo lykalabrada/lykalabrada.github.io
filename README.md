@@ -1,2 +1,2 @@
-- You can view projects I've worked on before in this link: https:lykalabrada.github.io
+- You can view projects I've worked on before in this link: [Learn more about Lyka Labrada](https:lykalabrada.github.io)
 - My latest resume is also included
