@@ -1,1 +1,2 @@
-# Resume
+- You can view projects I've worked on before in this link: https:lykalabrada.github.io
+- My latest resume is also included
