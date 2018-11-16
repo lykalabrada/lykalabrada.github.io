@@ -353,14 +353,14 @@ footer p {
 }
 
 .work-item.grocery .work-thumbnail {
-  background-image: url('../img/works/grocery.png');
+  background-image: url('../img/works/grocery.PNG');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .work-item.books .work-thumbnail {
-  background-image: url('../img/works/books.png');
+  background-image: url('../img/works/books.PNG');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
