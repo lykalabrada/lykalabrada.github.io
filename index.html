@@ -1,0 +1,611 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <meta name="referrer" content="unsafe-url" />
+    <meta name="description" content="Lyka Labrada | Web Developer - API / Backend" />
+    <meta name="rights" content="Lyka Labrada © 2017. All rights reserved." />
+    <meta name="author" content="Lyka Labrada">
+    <meta name="application-name" content="Resume | Lyka Labrada"/>
+    <meta name="keywords" content="Web Developer, API Developer, Backend Developer, API, Backend, Fullstack" />
+
+    <meta property="fb:app_id" content="" />
+    <meta property="fb:pages" content="" />
+
+    <meta property="og:title" content="Lyka Labrada | Web Developer - API / Backend" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lykalabrada.github.io" />
+    <meta property="og:site_name" content="Resume | Lyka Labrada" />
+    <meta property="og:description" content="Lyka Labrada | Web Developer - API / Backend" />
+    <meta property="og:image" content="img/card.jpg" />
+    <meta property="article:tag" content="Web Developer, API Developer, Backend Developer, API, Backend, Fullstack" />
+    <meta property="article:publisher" content="https://lykalabrada.github.io" />
+    <meta property="og:locale" content="en_US" />
+
+    <meta property="twitter:title" content="Resume | Lyka Labrada" />
+    <meta property="twitter:description" content="Lyka Labrada | Web Developer - API / Backend" />
+    <meta property="twitter:image:src" content="https://lykalabrada.github.io/CV/img/card.jpg" />
+    <meta name="twitter:site" content="@lykaSlabrada" />
+    <meta name="twitter:creator" content="@lykaSlabrada" />
+
+    <meta name="application-name" content="Lyka Labrada | Web Developer - API / Backend">
+    <meta name="msapplication-TileColor" content="#0097a7">
+    <meta name="theme-color" content="#0097a7">
+
+    <title>Resume | Lyka Labrada</title>
+
+    <link rel="canonical" href="https://lykalabrada.github.io" />
+    <link rel="image_src" href="img/card.jpg" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="icon" type="image/png" href="img/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="img/favicon-128x128.png" sizes="128x128">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#0097a7">
+    <meta name="msapplication-TileColor" content="#0097a7" />
+    <meta name="msapplication-TileImage" content="img/favicon-16x16.png" />
+
+    <meta name="msapplication-navbutton-color" content="#0097a7">
+    <meta name="msapplication-task" content="name=Resume - Resume | Lyka Labrada;action-uri=https://lykalabrada.github.io/CV" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/nprogress.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/mobile.css" rel="stylesheet">
+
+    <link rel="manifest" href="./manifest.json">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn"t work if you view the page via file:// -->
+    <!-- [if lt IE 9]>
+           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+         <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/nprogress.js"></script>
+    <script>
+    window.addEventListener('load', function() {
+
+      var outputElement = document.getElementById('output');
+
+      navigator.serviceWorker.register('service-worker.js', { scope: './' })
+        .then(function(r) {
+          console.log('registered service worker');
+        })
+        .catch(function(whut) {
+          console.error('uh oh... ');
+          console.error(whut);
+        });
+
+      window.addEventListener('beforeinstallprompt', function(e) {
+        outputElement.textContent = 'beforeinstallprompt Event fired';
+      });
+    });
+    </script>
+</head>
+
+<body>
+
+    <header></header>
+
+    <main>
+        <div class="container-fluid banner-bg banner-blur">
+            <div class="container hero-info">
+                <div class="banner-title">
+                    <h1 class="name">Lyka Labrada</h1>
+                    <h2>Web Developer - API / Backend</h2>
+                </div>
+                <ul class="list-inline">
+                    <li><a href="https://ph.linkedin.com/in/lykalabrada" title="linkedin" alt="linkedin" class="connect-icons" target="_blank"><i class="icon-social-linkedin icons"></i></a></li>
+                    <li><a href="https://github.com/lykalabrada" title="github" alt="github" class="connect-icons" target="_blank"><i class="icon-social-github icons"></i></a></li>
+                    <li><a href="mailto:lykalabrada@gmail.com" title="email" alt="email" class="connect-icons"><i class="icon-envelope icons"></i></a></li>
+                    <li><a href="skype:lyka.salazar.labrada?chat" title="skype" alt="skype" class="connect-icons"><i class="icon-social-skype icons"></i></a></li>
+                    <li><a href="https://www.facebook.com/Lyka-Labrada" title="facebook" alt="facebook" class="connect-icons" target="_blank"><i class="icon-social-facebook icons"></i></a></li>
+                    <li><a href="https://twitter.com/lykaSlabrada" title="twitter" alt="twitter" class="connect-icons" target="_blank"><i class="icon-social-twitter icons"></i></a></li>
+                </ul>
+            </div>
+            <div class="overlay"></div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 container-float">
+                    <ul class="nav nav-pills tab-primary">
+                      <li class="active">
+                        <a  href="#about" data-toggle="tab">About</a>
+                      </li>
+                      <li><a href="#work" data-toggle="tab">Work</a>
+                      </li>
+                    </ul>
+                    <a href="file/LYKA_LABRADA_2018_CV.pdf" target="_blank" class="btn btn-lg pull-right cv-download">
+                        <span class="cv-download-icon"><i class="icon-doc icons"></i></span>
+                        <span class="title">Download my Resume</span>
+                    </a>
+                </div>
+            </div>
+            <div class="tab-content clearfix">
+              <div class="tab-pane fade active" id="about">
+                <div class="row fade">
+                    <div class="col-md-8 right-content  pull-right">
+                        <div class="section-container">
+                            <div class="section-title">
+                                <h3>Work Experience</h3>
+                                <div class="highlight-bar"></div>
+                            </div>
+                            <div class="section-body">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div><i>November 2017 – Present</i></div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="content-title">
+                                            API / Backend Developer
+                                        </div>
+                                        <div class="content-subtitle">
+                                            Ducatus Technologies Inc. – Makati City, Philippines
+                                        </div>
+                                        <div class="content-body">
+                                            <ul class="list-bullet">
+                                              <li>Creating API documentation with swagger</li>
+                                              <li>Develop API services in an Agile environment</li>
+                                              <li>Perform agile testing – create and execute test scripts</li>
+                                              <li>Assist in scope definition, planning, estimation and tracking</li>
+                                              <li>Worked with integration of digital payments</li>
+                                              <li>Works self-contained and self-motivated to drive the development of highest standard</li>
+                                          </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div><i>April 2015 – November 2017</i></div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="content-title">
+                                            Web Developer
+                                        </div>
+                                        <div class="content-subtitle">
+                                            Trend Micro Inc. – Ortigas Ave., Pasig City, Philippines
+                                        </div>
+                                        <div class="content-body">
+                                            <ul class="list-bullet">
+                                              <li>Analyzing and debugging code</li>
+                                              <li>Maintaining the stability of all live systems under my care</li>
+                                              <li>Maintaining continuity throughout all websites both technically and creatively</li>
+                                              <li>Providing support for clients in using the sites </li>
+                                              <li>Developing of changes requested by the clients in the existing systems</li>
+                                              <li>Developing application from ground up to delivery</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div><i>February 2017 – June 2017</i></div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="content-title">
+                                            Freelance Developer
+                                        </div>
+                                        <div class="content-subtitle">
+                                            Translation and People Management System
+                                        </div>
+                                        <div class="content-body">
+                                            <ul class="list-bullet">
+                                              <li>Worked as the backend developer in partnership with another frontend developer/PM.</li>
+                                              <li>Transformed markups to working features.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div><i>March 2017 – May 2017</i></div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="content-title">
+                                            Freelance Developer
+                                        </div>
+                                        <div class="content-subtitle">
+                                            Online Voting System
+                                        </div>
+                                        <div class="content-body">
+                                            <ul class="list-bullet">
+                                              <li>Worked as the backend developer in partnership with another frontend developer/PM.</li>
+                                              <li>Transformed markups to working features.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div><i>February 2014 – April 2015</i></div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="content-title">
+                                            Web Developer
+                                        </div>
+                                        <div class="content-subtitle">
+                                            Prople Inc. – Pioneer St., Mandaluyong City, Philippines
+                                        </div>
+                                        <div class="content-body">
+                                            <ul class="list-bullet">
+                                              <li>Maintaining performance of existing client websites</li>
+                                              <li>Leading a small team on a variety of development projects and delivering solutions to meet and exceed clients’ briefs</li>
+                                              <li>Suggesting improvements on design and functionality</li>
+                                              <li>Diagnosing and rectifying performance issues</li>
+                                              <li>Maintaining continuity throughout all websites both technically and creatively</li>
+                                              <li>Providing aftercare support for clients on assessing the performance of their sites</li>
+                                              <li>Performing change requests based on the stakeholder’s requirements</li>
+                                              <li>Mentoring team members in development and technical progression</li>
+                                              <li>Writing multiple code and script and ensuring cross browser compliance</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div><i>November 2013 – February 2014</i></div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="content-title">
+                                            Web Developer - Trainee
+                                        </div>
+                                        <div class="content-subtitle">
+                                            Prople Inc. – Pioneer St., Mandaluyong City, Philippines
+                                        </div>
+                                        <div class="content-body">
+                                            <ul class="list-bullet">
+                                              <li>Working alongside the senior web developer to deliver optimum performance of clients’ websites</li>
+                                              <li>Hands on development of all project from scratch to delivery</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="section-container">
+                            <div class="section-title">
+                                <h3>Education</h3>
+                                <div class="highlight-bar"></div>
+                            </div>
+                            <div class="section-body">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div>College Degree</div>
+                                        <div><i>2010 - 2014</i></div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="content-title">
+                                            Bachelor of Science in Information Technology
+                                        </div>
+                                        <div class="content-subtitle">
+                                            Polytechnic University of the Philippines - Sta. Mesa, Manila, Philippines
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 left-content">
+                        <div class="section-container">
+                            <div class="section-title">
+                               <h3>About Me</h3>
+                                <div class="highlight-bar"></div>
+                            </div>
+                            <div class="section-body">
+                                <p>I am a skilled application developer with over 4 years of experience, capable of managing technology
+                                  projects from concept to completion with remarkable deadline sensitivity. A delivery focused, selfmotivated,
+                                  detail oriented and communicative team player who’s used to working in challenging
+                                  environments with a proven track record of delivering quality work to tight timelines
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section-container">
+                            <div class="section-title">
+                                <h3>Personal Information</h3>
+                                <div class="highlight-bar"></div>
+                            </div>
+                            <div class="section-body">
+                                <ul class="list-unstyled">
+                                    <li>Name<span class="pull-right"><strong>Lyka S. Labrada</strong></span></li>
+                                    <li>Birth Date <span class="pull-right"><strong>March 27, 1994</strong></span></li>
+                                    <li>Location <span class="pull-right"><strong>Philippines</strong></span></li>
+                                    <li>Mobile <span class="pull-right"><strong>(+63) 9455392994</strong></span></li>
+                                    <li>Email <span class="pull-right"><strong>lykalabrada@gmail.com</strong></span></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="section-container">
+                            <div class="section-title">
+                                <h3>Skills</h3>
+                                <div class="highlight-bar"></div>
+                            </div>
+                            <div class="section-body">
+                                <ul class="list-unstyled">
+                                    <li>API Development</li>
+                                    <li>Back-End Development</li>
+                                    <li>Database Design and Management</li>
+                                    <li>Agile Methodology</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="section-container">
+                            <div class="section-title">
+                                <h3>Programming Languages</h3>
+                                <div class="highlight-bar"></div>
+                            </div>
+                            <div class="section-body">
+                                <ul class="list-unstyled">
+                                    <li>NodeJS - JavaScript</li>
+                                    <li>Python</li>
+                                    <li>C#, ASP.Net</li>
+                                    <li>PHP</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="section-container">
+                            <div class="section-title">
+                                <h3>Frontend/Backend Frameworks</h3>
+                                <div class="highlight-bar"></div>
+                            </div>
+                            <div class="section-body">
+                                <ul class="list-unstyled">
+                                    <li>ExpressJS</li>
+                                    <li>ReactJS, Redux</li>
+                                    <li>FeathersJS</li>
+                                    <li>VueJS</li>
+                                    <li>AngularJS</li>
+                                    <li>Django</li
+                                    <li>CodeIgniter</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="section-container">
+                            <div class="section-title">
+                                <h3>Database Management Tools</h3>
+                                <div class="highlight-bar"></div>
+                            </div>
+                            <div class="section-body">
+                                <ul class="list-unstyled">
+                                    <li>MongoDB</li>
+                                    <li>Firebase</li>
+                                    <li>NoSQL</li>
+                                    <li>MSSQL</li>
+                                    <li>MySQL</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="work">
+                <h3>Hi, here are some of the projects I've handled so far...</h3><br>
+                <div class="row fade work-section">
+                  <div class="col-md-4">
+                    <div class="work-item ducatus" onclick="location.href='https://network.ducatus.net/backoffice/login';">
+                      <div class="work-thumbnail"></div>
+                      <div class="content">
+                        <h3 class="title">
+                          Ducatus Backoffice
+                        </h3>
+                        <p class="description">
+                          A portal to allow users to buy ducatus coins and track their accounts
+                        </p>
+                        <ul class="tags">
+                          <li>NodeJS</li>
+                          <li>FeathersJS</li>
+                          <li>Express</li>
+                          <li>MongoDB</li>
+                          <li>Mongoose</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="work-item beta" onclick="location.href='https://beta.trendmicro.com/en/home/';">
+                      <div class="work-thumbnail"></div>
+                      <div class="content">
+                        <h3 class="title">
+                          Trend Micro Beta Portal
+                        </h3>
+                        <p class="description">
+                          A portal for Trend Micro's latest products that allows interested users test pre-released software.
+                        </p>
+                        <ul class="tags">
+                          <li>Python</li>
+                          <li>Django</li>
+                          <li>MongoDB</li>
+                          <li>Ajax</li>
+                          <li>JavaScript</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="work-item yazyk" onclick="location.href='https://yazyk-analytics.firebaseapp.com';">
+                      <div class="work-thumbnail"></div>
+                      <div class="content">
+                        <h3 class="title">
+                          Yazyk Analytics Translation Tool
+                        </h3>
+                        <p class="description">
+                          A transaltion and translators management tool that allows project managers to assign translator to specific project
+                        </p>
+                        <ul class="tags">
+                          <li>NodeJS</li>
+                          <li>Express</li>
+                          <li>AngularJS</li>
+                          <li>Firebase</li>
+                          <li>noSQL</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row work-section">
+                  <div class="col-md-4">
+                    <div class="work-item grocery" onclick="location.href='https://grocery-shopping-list.herokuapp.com/';">
+                      <div class="work-thumbnail"></div>
+                      <div class="content">
+                        <h3 class="title">
+                          Grocery List
+                        </h3>
+                        <p class="description">
+                          A simple MERN stack with Redux
+                        </p>
+                        <ul class="tags">
+                          <li>MongoDB</li>
+                          <li>ExpressJS</li>
+                          <li>ReactJS</li>
+                          <li>NodeJS</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="work-item switch" onclick="location.href='https://the-switch.herokuapp.com/';">
+                      <div class="work-thumbnail"></div>
+                      <div class="content">
+                        <h3 class="title">
+                          Chat Switch
+                        </h3>
+                        <p class="description">
+                          A simple app to switch proactive chat on or off
+                        </p>
+                        <ul class="tags">
+                          <li>NodeJS</li>
+                          <li>Express</li>
+                          <li>JSON Server</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="work-item election" onclick="location.href='https://gic-studentonlinevoting.000webhostapp.com/login.php';">
+                      <div class="work-thumbnail"></div>
+                      <div class="content">
+                        <h3 class="title">
+                          Online Voting
+                        </h3>
+                        <p class="description">
+                          An online voting application for the student council
+                        </p>
+                        <ul class="tags">
+                          <li>PHP</li>
+                          <li>MySQL</li>
+                          <li>jQuery</li>
+                          <li>Ajax</li>
+                          <li>JavaScript</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="work-item movie" onclick="location.href='https://buy-movie.herokuapp.com/';">
+                      <div class="work-thumbnail"></div>
+                      <div class="content">
+                        <h3 class="title">
+                          Shop with Credit Card Payment
+                        </h3>
+                        <p class="description">
+                          A test project that accepts credit card payments
+                        </p>
+                        <ul class="tags">
+                          <li>StripeAPI</li>
+                          <li>NodeJS</li>
+                          <li>Express</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="work-item books" onclick="location.href='https://books-passportjs.herokuapp.com/';">
+                      <div class="work-thumbnail"></div>
+                      <div class="content">
+                        <h3 class="title">
+                          Books Library - PassportJS for Auth
+                        </h3>
+                        <p class="description">
+                          A test project that uses passportJS for authentication
+                        </p>
+                        <ul class="tags">
+                          <li>PassportJS</li>
+                          <li>MongoDB</li>
+                          <li>NodeJS</li>
+                          <li>Express</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <p>
+                Lyka Labrada © <script type="text/javascript">document.write(new Date().getFullYear());</script>. All rights reserved.
+            </p>
+            <ul class="list-inline connect-footer">
+                <li><a href="https://ph.linkedin.com/in/lykalabrada" title="linkedin" alt="linkedin" target="_blank"><i class="icon-social-linkedin icons"></i></a></li>
+                <li><a href="https://github.com/lykalabrada" title="github" alt="github" target="_blank"><i class="icon-social-github icons"></i></a></li>
+                <li><a href="mailto:lykalabrada@gmail.com" title="email" alt="email"><i class="icon-envelope icons"></i></a></li>
+                <li><a href="skype:lyka.salazar.labrada?chat" title="skype" alt="skype"><i class="icon-social-skype icons"></i></a></li>
+                <li><a href="https://www.facebook.com/Lyka-Labrada" title="facebook" alt="facebook" target="_blank"><i class="icon-social-facebook icons"></i></a></li>
+                <li><a href="https://twitter.com/lykaSlabrada" title="twitter" alt="twitter" target="_blank"><i class="icon-social-twitter icons"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+
+<script>
+
+    NProgress.start();
+
+    setTimeout(function() { NProgress.done(); $('.fade').addClass('in'); }, 100);
+
+$(document).ready(function() {
+    var img = new Image();
+    img.src = 'img/philippine-bg.gif';
+    if (img.src){
+     var int = setInterval(function() {
+      if (img.complete) {
+          clearInterval(int);
+          $('.banner-blur').addClass("banner-loaded");
+          $('.banner-bg').removeClass("banner-blur")
+      }
+  }, 100);
+}
+});
+</script>
+
+</body>
+
+</html>
