@@ -310,6 +310,20 @@ footer p {
   margin-bottom: 5px;
 }
 
+.work-item.airbookit .work-thumbnail {
+  background-image: url('../img/works/airbookit.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.work-item.quantum .work-thumbnail {
+  background-image: url('../img/works/quantum.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .work-item.ducatus .work-thumbnail {
   background-image: url('../img/works/ducatus.png');
   background-position: top center;
